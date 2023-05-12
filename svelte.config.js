@@ -17,6 +17,7 @@ const config = {
         prerender: {
             concurrency: 1,
             crawl: true,
+			entries: ['*', '/ko/', '/en/']
         },
 	}
 };
