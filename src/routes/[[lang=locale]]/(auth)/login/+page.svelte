@@ -10,6 +10,10 @@
     }
 </script>
 
+<svelte:head>
+    <title>LOGIN</title>
+</svelte:head>
+
 <h1>Login</h1>
 <a href={transformUrl("/")}>/</a>
 <a href={transformUrl("/about")}>/about</a>
